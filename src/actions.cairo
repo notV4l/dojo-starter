@@ -8,7 +8,7 @@ trait IActions<TContractState> {
 
 // dojo decorator
 #[dojo::contract]
-mod actions {
+mod actions2 {
     use starknet::{ContractAddress, get_caller_address};
     use super::{Position, Moves, Direction, Vec2};
     use dojo_examples::utils::next_position;
